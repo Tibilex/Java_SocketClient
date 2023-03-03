@@ -1,32 +1,32 @@
 package Models;
 public class UserData {
-    private User _user;
-    private boolean _registrationStatus;
+    private User user;
+    private boolean registrationStatus;
 
     public UserData() {
-        _user = null;
-        _registrationStatus = false;
+        user = null;
+        registrationStatus = false;
     }
 
     public UserData(User user, boolean status) {
-        this._user = user;
-        this._registrationStatus = status;
+        this.user = user;
+        this.registrationStatus = status;
     }
 
-    public User get_user() {
-        return _user;
+    public User getUser() {
+        return user;
     }
 
-    public void set_user(User _user) {
-        this._user = _user;
+    public void setUser(User _user) {
+        this.user = _user;
     }
 
-    public boolean is_registrationStatus() {
-        return _registrationStatus;
+    public boolean isRegistrationStatus() {
+        return registrationStatus;
     }
 
-    public void set_registrationStatus(boolean _registrationStatus) {
-        this._registrationStatus = _registrationStatus;
+    public void setRegistrationStatus(boolean _registrationStatus) {
+        this.registrationStatus = _registrationStatus;
     }
 
     @Override
